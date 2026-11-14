@@ -10,4 +10,4 @@ app.config['SECRET_KEY'] = Config.SECRET_KEY
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-from opinions_app import models, views, cli_comands, error_handlers
+from opinions_app import cli_commands, models, views, error_handlers
